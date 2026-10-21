@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Past Simple · Past Participle · Present Perfect</title>
+<style>
+:root{--ink:#20231f;--muted:#6c7169;--paper:#f5f6f2;--card:#fff;--line:#e1e5dc;--accent:#c8f169;--dark:#22271f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{background:var(--dark);color:white;padding:34px 20px 30px}
+.hero{max-width:850px;margin:auto}
+.kicker{font-size:11px;letter-spacing:.19em;text-transform:uppercase;color:var(--accent);font-weight:800}
+h1{font-size:clamp(28px,5vw,43px);line-height:1.08;letter-spacing:-.04em;margin:12px 0}
+header p{color:#d0d4ca;margin:0;max-width:620px}
+main{max-width:850px;margin:24px auto;padding:0 16px 50px}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;margin:14px 0}
+.section-head{display:flex;align-items:center;gap:12px;margin-bottom:15px}
+.num{width:34px;height:34px;flex:none;border-radius:10px;background:var(--accent);display:grid;place-items:center;font-weight:850}
+h2{font-size:18px;letter-spacing:-.02em;margin:0}
+.instruction{color:var(--muted);font-size:13px;margin:3px 0 18px}
+label{display:block;font-weight:650;font-size:14px;margin:15px 0 6px}
+input[type=text],textarea{width:100%;border:1px solid #d8ddd3;background:#fcfcfa;border-radius:9px;padding:11px 12px;font:inherit;color:var(--ink);outline:none}
+input:focus,textarea:focus{border-color:#8caa47;box-shadow:0 0 0 3px #c8f16955}
+textarea{resize:vertical;min-height:72px}
+.name-input{margin-top:7px}
+.reading{background:#f7f8f4;border-radius:10px;padding:17px;border-left:3px solid var(--accent)}
+.q{margin:18px 0}
+.q p{margin:0 0 7px;font-weight:600}
+.blank{display:inline-block;min-width:130px;width:145px;border:0!important;border-bottom:1.5px solid #73796d!important;border-radius:0!important;background:transparent!important;padding:5px 3px!important;box-shadow:none!important}
+.wordgrid{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:clamp(15px,3vw,22px);letter-spacing:.18em;line-height:1.8;text-align:center;white-space:pre;overflow-x:auto;background:#f7f8f4;padding:14px;border-radius:10px}
+button{border:0;border-radius:10px;padding:12px 17px;font:inherit;font-weight:750;cursor:pointer}
+.primary{background:var(--accent);color:#20231f}
+.secondary{background:#edf0e8;color:#30352d}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+#status{display:none;margin-top:16px;padding:16px;border-radius:12px;background:#edf6dc}
+footer{font-size:12px;color:var(--muted);text-align:center;padding:10px}
+@media(max-width:560px){.meta{grid-template-columns:1fr}.card{padding:17px}.blank{width:115px;min-width:100px}}
+@media print{body{background:white}.card{break-inside:avoid;border:1px solid #bbb}header{background:white;color:black;padding:15px 0}header p,.kicker{color:#333}main{max-width:none}.actions{display:none}input,textarea{border:0;border-bottom:1px solid #999;background:white}}
+</style>
+</head>
+<body>
+<header>
+<div class="hero">
+<div class="kicker">English · Written assessment</div>
+<h1>Grammar & Comprehension</h1>
+<p>Complete every task independently. Write your own answers in English.</p>
+</div>
+</header>
+<main>
+<div class="meta">
+<div class="card" style="margin:0"><label for="student" style="margin-top:0">Student name</label><input class="name-input" id="student" type="text"></div>
+<div class="card" style="margin:0"><label for="date" style="margin-top:0">Date</label><input class="name-input" id="date" type="text"></div>
+</div>
+
+<section class="card">
+<div class="section-head"><div class="num">01</div><h2>Past Simple or Present Perfect?</h2></div>
+<div class="instruction">Complete each sentence with the correct form of the verb in brackets. Pay attention to the time expressions and meaning.</div>
+<div class="q">1. I __________ (not see) Daniel yesterday.</div>
+<div class="q">2. She __________ (write) four emails so far today.</div>
+<div class="q">3. __________ you ever __________ (eat) Korean food?</div>
+<div class="q">4. My brother __________ (break) his phone last week.</div>
+<div class="q">5. We __________ (know) each other for six years.</div>
+<div class="q">6. He __________ (not finish) his homework yet.</div>
+<div class="q">7. When I was younger, I __________ (run) every morning.</div>
+<div class="q">8. __________ you __________ (speak) to the teacher today?</div>
+<div class="q">9. They __________ (visit) London in 2023.</div>
+<div class="q">10. How many books __________ she __________ (read) this month?</div>
+<div class="q">11. I __________ (lose) my keys. I can't open the door.</div>
+<div class="q">12. We __________ (not travel) abroad last year.</div>
+<div class="q">13. He __________ (just / arrive), so you can call him now.</div>
+<div class="q">14. __________ they __________ (finish) the project on Friday?</div>
+<div class="q">15. My parents __________ (live) in Murcia since 2020.</div>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">02</div><h2>Infinitive · Past Simple · Past Participle</h2></div>
+<div class="instruction">Write the Past Simple and Past Participle forms of each verb.</div>
+<div id="verbs">
+</div>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">03</div><h2>Reading: identify and use the tenses</h2></div>
+<div class="reading">When Maya accepted a job at a small publishing company, she had never worked in an office before. During her first month, she made several mistakes, but her manager encouraged her to learn from them. By the end of the year, Maya had become one of the most reliable members of the team. She has recently started managing a new project, although she has not led a team this large before. Last Tuesday, the company announced that the project would be presented at an international conference. Maya felt nervous at first, but she has prepared carefully and believes the team is ready. She has worked at the company for eighteen months, and she learned most of her skills during her first six months.</div>
+<div class="q"><p>1. What kind of workplace did Maya join?</p><textarea></textarea></div>
+<div class="q"><p>2. How did her manager respond to her early mistakes?</p><textarea></textarea></div>
+<div class="q"><p>3. What had changed by the end of the year?</p><textarea></textarea></div>
+<div class="q"><p>4. What new responsibility has Maya taken on?</p><textarea></textarea></div>
+<div class="q"><p>5. What did the company announce last Tuesday?</p><textarea></textarea></div>
+<div class="q"><p>6. Why might Maya feel nervous, and what has she done to prepare?</p><textarea></textarea></div>
+<div class="q"><p>7. Copy one sentence from the text that uses the Present Perfect.</p><textarea></textarea></div>
+<div class="q"><p>8. Explain why the text uses “Last Tuesday” with a past tense.</p><textarea></textarea></div>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">04</div><h2>Complete the paragraph</h2></div>
+<div class="instruction">Fill each blank with a complete, grammatically correct form. Read the whole paragraph before answering.</div>
+<div class="reading" style="line-height:2.5">
+Last summer, my family <input class="blank" type="text" aria-label="Blank 1"> (travel) to Scotland for the first time. We <input class="blank" type="text" aria-label="Blank 2"> (never / visit) the country before that trip. On our second day, we <input class="blank" type="text" aria-label="Blank 3"> (drive) to a small village near the coast. The weather <input class="blank" type="text" aria-label="Blank 4"> (change) suddenly, and we had to find shelter. Since that trip, I <input class="blank" type="text" aria-label="Blank 5"> (become) interested in Scottish history. I <input class="blank" type="text" aria-label="Blank 6"> (already / read) two books about it, but I <input class="blank" type="text" aria-label="Blank 7"> (not visit) Edinburgh yet. My parents <input class="blank" type="text" aria-label="Blank 8"> (promise) that we can return next year. Last week, my mother <input class="blank" type="text" aria-label="Blank 9"> (find) an old guidebook, and we <input class="blank" type="text" aria-label="Blank 10"> (decide) to plan another trip.
+</div>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">05</div><h2>Transform the sentences</h2></div>
+<div class="instruction">Rewrite each sentence according to the instruction. Keep the original meaning.</div>
+<div class="q"><p>1. I last saw Oliver in 2022.</p><label>Rewrite using “since”.</label><textarea></textarea></div>
+<div class="q"><p>2. She finished her work a few minutes ago.</p><label>Rewrite using “just”.</label><textarea></textarea></div>
+<div class="q"><p>3. He went to the shop. Then his friends arrived.</p><label>Combine the ideas using “before”.</label><textarea></textarea></div>
+<div class="q"><p>4. This is my first time visiting Rome.</p><label>Rewrite using “never”.</label><textarea></textarea></div>
+<div class="q"><p>5. She started working here in 2021 and she still works here.</p><label>Rewrite using “for”.</label><textarea></textarea></div>
+<div class="q"><p>6. I completed the report a moment ago.</p><label>Rewrite using “just”.</label><textarea></textarea></div>
+<div class="q"><p>7. He didn't try sushi at any time in his life.</p><label>Rewrite using “never” and the Present Perfect.</label><textarea></textarea></div>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">06</div><h2>Build your own sentences</h2></div>
+<div class="instruction">Write original sentences. Use the tense requested and do not repeat the same main verb.</div>
+<div class="q"><p>1. Write two sentences in the Past Simple about something you did last weekend.</p><textarea></textarea></div>
+<div class="q"><p>2. Write two sentences in the Present Perfect about experiences in your life.</p><textarea></textarea></div>
+<div class="q"><p>3. Write one negative sentence in the Present Perfect.</p><textarea></textarea></div>
+<div class="q"><p>4. Write one question in the Present Perfect and answer it.</p><textarea></textarea></div>
+<div class="q"><p>5. Write a sentence using a Past Participle with “have” or “has”.</p><textarea></textarea></div>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">07</div><h2>Listening: past events and life experiences</h2></div>
+<div class="instruction">Listen to the recording. You may listen twice. Answer the questions in complete sentences.</div>
+<div class="actions" style="margin-top:0;margin-bottom:16px">
+<button class="primary" type="button" onclick="playListening()">▶ Play audio</button>
+<button class="secondary" type="button" onclick="stopListening()">Stop audio</button>
+</div>
+<div class="q"><p>1. Where did Ethan go during his recent holiday?</p><textarea></textarea></div>
+<div class="q"><p>2. What problem did he experience on the first day?</p><textarea></textarea></div>
+<div class="q"><p>3. What activity had he never tried before the trip?</p><textarea></textarea></div>
+<div class="q"><p>4. What has he done since returning home?</p><textarea></textarea></div>
+<div class="q"><p>5. How did the experience affect his plans?</p><textarea></textarea></div>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">08</div><h2>Correct the tense and verb-form mistakes</h2></div>
+<div class="instruction">Each sentence contains a grammar mistake. Rewrite the entire sentence correctly.</div>
+<div class="q"><p>1. I have went to that restaurant twice.</p><textarea></textarea></div>
+<div class="q"><p>2. She didn't saw the message yesterday.</p><textarea></textarea></div>
+<div class="q"><p>3. Have you ever wrote a poem?</p><textarea></textarea></div>
+<div class="q"><p>4. We have lived here since five years.</p><textarea></textarea></div>
+<div class="q"><p>5. They have finished the match last night.</p><textarea></textarea></div>
+<div class="q"><p>6. Did you ever went to Ireland?</p><textarea></textarea></div>
+<div class="q"><p>7. I have knew her since we were children.</p><textarea></textarea></div>
+<div class="q"><p>8. He has wrote three emails today.</p><textarea></textarea></div>
+</section>
+
+<div class="actions">
+<button class="primary" type="button" onclick="finishTest()">Finish test</button>
+<button class="secondary" type="button" onclick="window.print()">Print / Save as PDF</button>
+<button class="secondary" type="button" onclick="resetTest()">Clear all answers</button>
+</div>
+<div id="status" role="status"></div>
+<footer>Independent assessment · Check your work before submitting.</footer>
+</main>
+<script>
+const verbList=["go","see","take","speak","choose","break","write","eat","do","forget","bring","teach","buy","think","drive"];
+const verbs=document.getElementById("verbs");
+verbList.forEach((v,i)=>{
+ const row=document.createElement("div");row.className="q";
+ row.innerHTML=`<p>${i+1}. ${v.charAt(0).toUpperCase()+v.slice(1)}</p><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px"><div><label>Past Simple</label><input type="text" autocomplete="off"></div><div><label>Past Participle</label><input type="text" autocomplete="off"></div></div>`;
+ verbs.appendChild(row);
+});
+const listeningText="Ethan has just returned from a hiking holiday in the Lake District. He went there with two friends last month. On the first day, heavy rain delayed their journey, and they arrived at the campsite later than expected. Ethan had never climbed a mountain before this trip, but he reached the summit on the third day. Since returning home, he has shared his photographs with his family and written a short account of the journey. The experience has inspired him to plan a longer walking holiday next spring.";
+function playListening(){
+ if(!("speechSynthesis" in window)){alert("Audio playback is not available in this browser.");return;}
+ speechSynthesis.cancel();
+ const u=new SpeechSynthesisUtterance(listeningText);u.lang="en-GB";u.rate=.82;speechSynthesis.speak(u);
+}
+function stopListening(){if("speechSynthesis" in window)speechSynthesis.cancel();}
+function finishTest(){
+ const status=document.getElementById("status");
+ status.style.display="block";
+ status.textContent="Your answers are still on this page. Review them before printing or saving your completed test as a PDF. No answers or hints are displayed.";
+ status.scrollIntoView({behavior:"smooth",block:"center"});
+}
+function resetTest(){
+ if(confirm("Clear all answers? This cannot be undone.")){
+ document.querySelectorAll('input[type="text"],textarea').forEach(e=>e.value="");
+ document.getElementById("status").style.display="none";
+ }
+}
+</script>
+</body>
+</html>
